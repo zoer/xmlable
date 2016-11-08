@@ -1,0 +1,121 @@
+{
+  "feed": {
+    "environment": "test",
+    "totalResults": [
+      "1"
+    ],
+    "startIndex": [
+      "1"
+    ],
+    "itemsPerPage": [
+      "1000"
+    ],
+    "entry": [
+      {
+        "property": [
+          {
+            "name": "ga:profileId",
+            "value": "1174"
+          }
+        ],
+        "goal": [
+          {
+            "active": "true",
+            "name": "Completing Order",
+            "number": "1",
+            "value": "10.0",
+            "destination": [
+              {
+                "caseSensitive": "false",
+                "expression": "/purchaseComplete.html",
+                "matchType": "regex",
+                "step1Required": "false",
+                "step": [
+                  {
+                    "name": "View Product Categories",
+                    "number": "1",
+                    "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables"
+                  },
+                  {
+                    "name": "View Product",
+                    "number": "2",
+                    "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables/(.*)\\.axd"
+                  },
+                  {
+                    "name": "View Shopping Cart",
+                    "number": "3",
+                    "path": "/shoppingcart.aspx"
+                  },
+                  {
+                    "name": "Login",
+                    "number": "4",
+                    "path": "/login.html"
+                  },
+                  {
+                    "name": "Place Order",
+                    "number": "5",
+                    "path": "/placeOrder.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.googleapis.com/analytics/v2.4/management/accounts/30481/webproperties/UA-30481-1/profiles/1174/goals/1"
+          },
+          {
+            "rel": "http://schemas.google.com/ga/2009#parent",
+            "type": "application/atom+xml",
+            "href": "https://www.googleapis.com/analytics/v2.4/management/accounts/30481/webproperties/UA-30481-1/profiles/1174",
+            "targetKind": "analytics#profile"
+          }
+        ]
+      },
+      {
+        "property": [
+          {
+            "name": "ga:summaryId",
+            "value": "234"
+          }
+        ],
+        "goal": [
+          {
+            "active": "false",
+            "name": "Completing Order",
+            "number": "2",
+            "value": "9.0",
+            "destination": [
+              {
+                "caseSensitive": "true",
+                "expression": "/purchaseComplete.html",
+                "matchType": "regex",
+                "step1Required": "true",
+                "step": [
+                  {
+                    "name": "View Product Categories",
+                    "number": "1",
+                    "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables"
+                  },
+                  {
+                    "name": "View Shopping Cart",
+                    "number": "5",
+                    "path": "/shoppingcart.aspx"
+                  },
+                  {
+                    "name": "View Product",
+                    "number": "2",
+                    "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables/(.*)\\.axd"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

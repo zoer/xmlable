@@ -1,0 +1,114 @@
+{
+  "cat-alog": {
+    "bo-oks": [
+      {
+        "i-d": "bk101",
+        "auth-or": "Gambardella, Matthew",
+        "tit-le": "XML Developer's Guide",
+        "gen-re": "Computer",
+        "pri-ce": 44.95,
+        "publish-date": "2000-10-01",
+        "descrip-tion": "An in-depth look at creating applications\n      with XML."
+      },
+      {
+        "i-d": "bk102",
+        "auth-or": "Ralls, Kim",
+        "tit-le": "Midnight Rain",
+        "gen-re": "Fantasy",
+        "pri-ce": 5.95,
+        "publish-date": "2000-12-16",
+        "descrip-tion": "A former architect battles corporate zombies,\n      an evil sorceress, and her own childhood to become queen\n      of the world."
+      },
+      {
+        "i-d": "bk103",
+        "auth-or": "Corets, Eva",
+        "tit-le": "Maeve Ascendant",
+        "gen-re": "Fantasy",
+        "pri-ce": 5.95,
+        "publish-date": "2000-11-17",
+        "descrip-tion": "After the collapse of a nanotechnology\n      society in England, the young survivors lay the\n      foundation for a new society."
+      },
+      {
+        "i-d": "bk104",
+        "auth-or": "Corets, Eva",
+        "tit-le": "Oberon's Legacy",
+        "gen-re": "Fantasy",
+        "pri-ce": 5.95,
+        "publish-date": "2001-03-10",
+        "descrip-tion": "In post-apocalypse England, the mysterious\n      agent known only as Oberon helps to create a new life\n      for the inhabitants of London. Sequel to Maeve\n      Ascendant."
+      },
+      {
+        "i-d": "bk105",
+        "auth-or": "Corets, Eva",
+        "tit-le": "The Sundered Grail",
+        "gen-re": "Fantasy",
+        "pri-ce": 5.95,
+        "publish-date": "2001-09-10",
+        "descrip-tion": "The two daughters of Maeve, half-sisters,\n      battle one another for control of England. Sequel to\n      Oberon's Legacy."
+      },
+      {
+        "i-d": "bk106",
+        "auth-or": "Randall, Cynthia",
+        "tit-le": "Lover Birds",
+        "gen-re": "Romance",
+        "pri-ce": 4.95,
+        "publish-date": "2000-09-02",
+        "descrip-tion": "When Carla meets Paul at an ornithology\n      conference, tempers fly as feathers get ruffled."
+      },
+      {
+        "i-d": "bk107",
+        "auth-or": "Thurman, Paula",
+        "tit-le": "Splish Splash",
+        "gen-re": "Romance",
+        "pri-ce": 4.95,
+        "publish-date": "2000-11-02",
+        "descrip-tion": "A deep sea diver finds true love twenty\n      thousand leagues beneath the sea."
+      },
+      {
+        "i-d": "bk108",
+        "auth-or": "Knorr, Stefan",
+        "tit-le": "Creepy Crawlies",
+        "gen-re": "Horror",
+        "pri-ce": 4.95,
+        "publish-date": "2000-12-06",
+        "descrip-tion": "An anthology of horror stories about roaches,\n      centipedes, scorpions  and other insects."
+      },
+      {
+        "i-d": "bk109",
+        "auth-or": "Kress, Peter",
+        "tit-le": "Paradox Lost",
+        "gen-re": "Science Fiction",
+        "pri-ce": 6.95,
+        "publish-date": "2000-11-02",
+        "descrip-tion": "After an inadvertant trip through a Heisenberg\n      Uncertainty Device, James Salway discovers the problems\n      of being quantum."
+      },
+      {
+        "i-d": "bk110",
+        "auth-or": "O'Brien, Tim",
+        "tit-le": "Microsoft .NET: The Programming Bible",
+        "gen-re": "Computer",
+        "pri-ce": 36.95,
+        "publish-date": "2000-12-09",
+        "descrip-tion": "Microsoft's .NET initiative is explored in\n      detail in this deep programmer's reference."
+      },
+      {
+        "i-d": "bk111",
+        "auth-or": "O'Brien, Tim",
+        "tit-le": "MSXML3: A Comprehensive Guide",
+        "gen-re": "Computer",
+        "pri-ce": 36.95,
+        "publish-date": "2000-12-01",
+        "descrip-tion": "The Microsoft MSXML3 parser is covered in\n      detail, with attention to XML DOM interfaces, XSLT processing,\n      SAX and more."
+      },
+      {
+        "i-d": "bk112",
+        "auth-or": "Galos, Mike",
+        "tit-le": "Visual Studio 7: A Comprehensive Guide",
+        "gen-re": "Computer",
+        "pri-ce": 49.95,
+        "publish-date": "2001-04-16",
+        "descrip-tion": "Microsoft Visual Studio 7 is explored in depth,\n      looking at how Visual Basic, Visual C++, C#, and ASP+ are\n      integrated into a comprehensive development\n      environment."
+      }
+    ]
+  }
+}

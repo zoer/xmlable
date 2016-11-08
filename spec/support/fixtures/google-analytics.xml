@@ -1,0 +1,29 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dxp="http://schemas.google.com/analytics/2009" xmlns:ga="http://schemas.google.com/ga/2009" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:gd="http://schemas.google.com/g/2005" environment="test">
+  <openSearch:totalResults>1</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+  <entry>
+    <dxp:property name="ga:profileId" value="1174"/>
+    <ga:goal active="true" name="Completing Order" number="1" value="10.0">
+      <ga:destination caseSensitive="false" expression="/purchaseComplete.html" matchType="regex" step1Required="false">
+        <ga:step name="View Product Categories" number="1" path="/Apps|Accessories|Fun|Kid\+s|Office|Wearables"/>
+        <ga:step name="View Product" number="2" path="/Apps|Accessories|Fun|Kid\+s|Office|Wearables/(.*)\.axd"/>
+        <ga:step name="View Shopping Cart" number="3" path="/shoppingcart.aspx"/>
+        <ga:step name="Login" number="4" path="/login.html"/>
+        <ga:step name="Place Order" number="5" path="/placeOrder.html"/>
+      </ga:destination>
+    </ga:goal>
+    <link rel="self" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/30481/webproperties/UA-30481-1/profiles/1174/goals/1"/>
+    <link rel="http://schemas.google.com/ga/2009#parent" type="application/atom+xml" href="https://www.googleapis.com/analytics/v2.4/management/accounts/30481/webproperties/UA-30481-1/profiles/1174" gd:targetKind="analytics#profile"/>
+  </entry>
+  <entry>
+    <property name="ga:summaryId" value="234"/>
+    <ga:goal active="false" name="Completing Order" number="2" value="9.0">
+      <ga:destination caseSensitive="true" expression="/purchaseComplete.html" matchType="regex" step1Required="true">
+        <ga:step name="View Product Categories" number="1" path="/Apps|Accessories|Fun|Kid\+s|Office|Wearables"/>
+        <ga:step name="View Shopping Cart" number="5" path="/shoppingcart.aspx"/>
+        <ga:step name="View Product" number="2" path="/Apps|Accessories|Fun|Kid\+s|Office|Wearables/(.*)\.axd"/>
+      </ga:destination>
+    </ga:goal>
+  </entry>
+</feed>

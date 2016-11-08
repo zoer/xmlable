@@ -1,0 +1,107 @@
+{
+  "stat": {
+    "env": "test",
+    "result": 1,
+    "index": 1,
+    "per_page": 1000,
+    "entries": [
+      {
+        "property": {
+          "name": "ga:profileId",
+          "value": 1174
+        },
+        "goal": {
+          "active": true,
+          "name": "Completing Order",
+          "number": 1,
+          "value": 10.0,
+          "dest": {
+            "case": false,
+            "expression": "/purchaseComplete.html",
+            "matchType": "regex",
+            "step1_required": false,
+            "steps": [
+              {
+                "name": "View Product Categories",
+                "number": 1,
+                "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables"
+              },
+              {
+                "name": "View Product",
+                "number": 2,
+                "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables/(.*)\\.axd"
+              },
+              {
+                "name": "View Shopping Cart",
+                "number": 3,
+                "path": "/shoppingcart.aspx"
+              },
+              {
+                "name": "Login",
+                "number": 4,
+                "path": "/login.html"
+              },
+              {
+                "name": "Place Order",
+                "number": 5,
+                "path": "/placeOrder.html"
+              }
+            ]
+          }
+        },
+        "links": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.googleapis.com/analytics/v2.4/management/accounts/30481/webproperties/UA-30481-1/profiles/1174/goals/1",
+            "target": ""
+          },
+          {
+            "rel": "http://schemas.google.com/ga/2009#parent",
+            "type": "application/atom+xml",
+            "href": "https://www.googleapis.com/analytics/v2.4/management/accounts/30481/webproperties/UA-30481-1/profiles/1174",
+            "target": "analytics#profile"
+          }
+        ]
+      },
+      {
+        "property": {
+          "name": "",
+          "value": 0
+        },
+        "goal": {
+          "active": false,
+          "name": "Completing Order",
+          "number": 2,
+          "value": 9.0,
+          "dest": {
+            "case": true,
+            "expression": "/purchaseComplete.html",
+            "matchType": "regex",
+            "step1_required": true,
+            "steps": [
+              {
+                "name": "View Product Categories",
+                "number": 1,
+                "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables"
+              },
+              {
+                "name": "View Shopping Cart",
+                "number": 5,
+                "path": "/shoppingcart.aspx"
+              },
+              {
+                "name": "View Product",
+                "number": 2,
+                "path": "/Apps|Accessories|Fun|Kid\\+s|Office|Wearables/(.*)\\.axd"
+              }
+            ]
+          }
+        },
+        "links": [
+
+        ]
+      }
+    ]
+  }
+}

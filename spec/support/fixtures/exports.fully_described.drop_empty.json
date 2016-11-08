@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "date": "2010-10-20",
+    "l1": {
+      "l2": {
+        "l2a": "l2a",
+        "text": "l2-content"
+      }
+    },
+    "s1": {
+      "s2": {
+        "s2a": "s2a",
+        "text": "s2-content"
+      }
+    },
+    "status": {
+      "__content": "paid"
+    },
+    "dynamic": {
+      "count": "3"
+    },
+    "items": [
+      {
+        "position": "1",
+        "cost": 12.1
+      },
+      {
+        "position": "2",
+        "cost": 2.1
+      }
+    ]
+  }
+}
