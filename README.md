@@ -1,5 +1,5 @@
 # XMLable
-[![Build Status](https://travis-ci.org/zoer/lexer.svg)](https://travis-ci.org/zoer/lexer)
+[![Build Status](https://travis-ci.org/zoer/xmlable.svg)](https://travis-ci.org/zoer/xmlable)
 [![Code Climate](https://codeclimate.com/github/zoer/xmlable/badges/gpa.svg)](https://codeclimate.com/github/zoer/xmlable)
 [![Version Eye](https://www.versioneye.com/ruby/xmlable/badge.png)](https://www.versioneye.com/ruby/xmlable)
 [![Inline docs](http://inch-ci.org/github/zoer/xmlable.png)](http://inch-ci.org/github/zoer/xmlable)
