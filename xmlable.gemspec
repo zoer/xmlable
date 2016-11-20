@@ -20,5 +20,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'byebug'
   spec.add_development_dependency 'rspec', '~> 3.5'
-  spec.add_development_dependency 'guard-rspec', '~> 4.7.3'
 end
