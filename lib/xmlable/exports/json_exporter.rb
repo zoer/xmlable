@@ -14,6 +14,8 @@ module XMLable
         export_object(@element, opts)
       end
 
+      private
+
       #
       # Is object empty?
       #

@@ -57,8 +57,6 @@ module XMLable
       def []=(*)
       end
 
-      private
-
       #
       # Inject XML node and handler with the curren object
       #
