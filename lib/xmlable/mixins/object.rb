@@ -10,7 +10,7 @@ module XMLable
       attr_reader :__handler
 
       def self.included(base)
-        base.extend(ClassMethods)
+        base.send(:extend, ClassMethods)
       end
 
       #

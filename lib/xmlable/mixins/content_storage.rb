@@ -6,7 +6,7 @@ module XMLable
     #
     module ContentStorage
       def self.included(base)
-        base.extend(ClassMethods)
+        base.send(:extend, ClassMethods)
       end
 
       #

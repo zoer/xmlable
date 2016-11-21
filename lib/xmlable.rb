@@ -9,7 +9,7 @@ require 'date'
 #
 module XMLable
   def self.included(base)
-    base.extend(ClassMethods)
+    base.send(:extend, ClassMethods)
   end
 
   module ClassMethods

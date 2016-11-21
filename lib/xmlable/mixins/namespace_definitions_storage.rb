@@ -6,7 +6,7 @@ module XMLable
     #
     module NamespaceDefinitionsStorage
       def self.included(base)
-        base.extend(ClassMethods)
+        base.send(:extend, ClassMethods)
       end
 
       #

@@ -4,13 +4,13 @@ module XMLable
   #
   module Attribute
     def self.included(base)
-      base.include Mixins::Object
-      base.include Mixins::Castable
-      base.include Mixins::ValueStorage
-      base.include Mixins::StandaloneAttribute
-      base.include Mixins::OptionsStorage
-      base.include Mixins::BareValue
-      base.include Mixins::Instantiable
+      base.send(:include, Mixins::Object)
+      base.send(:include, Mixins::Castable)
+      base.send(:include, Mixins::ValueStorage)
+      base.send(:include, Mixins::StandaloneAttribute)
+      base.send(:include, Mixins::OptionsStorage)
+      base.send(:include, Mixins::BareValue)
+      base.send(:include, Mixins::Instantiable)
     end
   end
 end

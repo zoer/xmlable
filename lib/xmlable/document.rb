@@ -4,13 +4,13 @@ module XMLable
   #
   module Document
     def self.included(base)
-      base.include Mixins::Object
-      base.include Mixins::Export
-      base.include Mixins::OptionsStorage
-      base.include Mixins::Instantiable
-      base.include Mixins::Castable
-      base.include Mixins::DocumentStorage
-      base.include Mixins::RootStorage
+      base.send(:include, Mixins::Object)
+      base.send(:include, Mixins::Export)
+      base.send(:include, Mixins::OptionsStorage)
+      base.send(:include, Mixins::Instantiable)
+      base.send(:include, Mixins::Castable)
+      base.send(:include, Mixins::DocumentStorage)
+      base.send(:include, Mixins::RootStorage)
     end
   end
 end

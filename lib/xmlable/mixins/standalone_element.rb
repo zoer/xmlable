@@ -5,7 +5,7 @@ module XMLable
     #
     module StandaloneElement
       def self.included(base)
-        base.extend(ClassMethods)
+        base.send(:extend, ClassMethods)
       end
 
       #
