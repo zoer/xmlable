@@ -7,8 +7,6 @@
 
 XMLable provides an ability to convert XML to Ruby object and back.
 
-This probject is in active development and isn't ready for production yet.
-
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -74,7 +74,7 @@ module XMLable
       end
 
       #
-      # Does the handler have additional settins
+      # Does the handler have additional settings?
       #
       # @return [Boolean]
       #
